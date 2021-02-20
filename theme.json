@@ -1,0 +1,22 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "M++ Theme",
+    "tokenColors": [{
+            "name": "trigger",
+            "scope": [
+                "trigger.control.mpp",
+            ],
+            "settings": {
+                "foreground": "#4892f1"
+            },
+
+        },
+        {
+            "name": "keyword",
+            "scope": "keyword.control.mpp",
+            "settings": {
+                "foreground": "#ff8383"
+            }
+        }
+    ],
+}

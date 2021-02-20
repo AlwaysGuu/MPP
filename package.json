@@ -20,6 +20,13 @@
             "language": "mpp",
             "scopeName": "source.mpp",
             "path": "./syntaxes/mpp.tmLanguage.json"
+        }],
+        "themes": [{
+            "label": "M++",
+            "id": "mpp",
+            "uiTheme": "vs-dark",
+            "path": "theme.json"
         }]
+
     }
 }
