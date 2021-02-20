@@ -1,0 +1,25 @@
+{
+    "name": "mpp",
+    "displayName": "M++",
+    "description": "Code Highlight for MushPlusPlus",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mpp",
+            "aliases": ["M++", "mpp"],
+            "extensions": [".mpp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mpp",
+            "scopeName": "source.mpp",
+            "path": "./syntaxes/mpp.tmLanguage.json"
+        }]
+    }
+}
